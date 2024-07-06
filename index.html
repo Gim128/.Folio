@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--    import fontawesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+    />
+    <!--    css-->
+    <link rel="stylesheet" href="./style/style.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav" id="navbar">
+            <div class="logo">folio<b>.</b></div>
+            <ul class="navitems">
+                <li><a href="#" onclick="openInNewTab1()">Behance</a></li>
+                <li><a href="#" onclick="openInNewTab2()">GitHub</a></li>
+                <li><a href="#" onclick="openInNewTab3()">Fiverr</a></li>
+                <a href="javascript:void(0);" class="toggle-button" onclick="toggleNavbar()">
+                    &#9776;
+                </a>
+
+            </ul>
+            <div class="links">
+                <a href="#" onclick="openInNewTab4()"><i class="fab fa-linkedin"></i></a>
+                <a href="#" onclick="openInNewTab5()"><i class="fab fa-instagram"></i></a>
+                <a href="#" onclick="openInNewTab6()"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1 style="font-size: 74px">I'm <span class="multitext"></span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur harum ipsam nam non quibusdam, quos?</p>
+                <div class="btns">
+                    <button onclick="goToPage()">Download CV</button>
+                    <button onclick="goToPage2()">Hire Me</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="..." id="splash" alt="...">
+                    <img src="..." alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</body>
+</html>
